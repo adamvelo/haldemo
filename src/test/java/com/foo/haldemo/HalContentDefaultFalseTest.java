@@ -15,7 +15,7 @@ import java.net.URI;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @TestPropertySource(properties = "spring.hateoas.use-hal-as-default-json-media-type=false")
-class HalContentTestsWithDefaultFalse {
+class HalContentDefaultFalseTest {
 
 	@Autowired
 	TestRestTemplate restTemplate;
